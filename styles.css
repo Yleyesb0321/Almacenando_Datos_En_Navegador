@@ -46,7 +46,7 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 65%;
+  width: 35%;
 }
 
 .inputForm::placeholder {
@@ -98,11 +98,14 @@ form {
 }
 
 .icon:hover {
-  color: rgba(62, 161, 219, 1);
+  color: #67e6dc;
+
+  /*color: rgba(62, 161, 219, 1);*/
 }
 
 .completeIcon {
-  color: rgba(62, 161, 219, 1);
+  color: #2ecc71;
+  /* color: rgb(66, 173, 56);*/
 }
 
 .trashIcon:hover {
@@ -124,4 +127,9 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+.date {
+  width: 100%;
+  padding: 15px;
 }
